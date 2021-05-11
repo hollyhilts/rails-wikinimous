@@ -7,8 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 10.times do
-  Article.create({
-    title: ,
-    content:
-  })
+  Article.create({ title: Faker::TvShows::TwinPeaks.quote,
+                   content: Faker::TvShows::RuPaul.quote })
 end
